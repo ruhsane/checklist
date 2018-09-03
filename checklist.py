@@ -1,3 +1,7 @@
+#Ruhsane Sawut
+# Checklist HW
+
+
 checklist = list()
 
 def fun_function(str):
@@ -59,7 +63,7 @@ def user_input(prompt):
     user_input = input(prompt)
     return user_input
 
-
+# this while loop will call the select function until it returns False
 running = True
 while running:
     selection = user_input("Press C to add to list, R to Read from list and P to display list")
